@@ -1,0 +1,15 @@
+{
+  "name": "my-slide",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "rento.hitaka",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev": "marp --html --server .",
+    "build": "marp --html --pdf --allow-local-files --title 'スライドのタイトル' slide.md -o ./slide.pdf"
+  },
+  "dependencies": {
+    "@marp-team/marp-cli": "^1.2.0"
+  }
+}
